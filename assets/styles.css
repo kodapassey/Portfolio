@@ -26,11 +26,11 @@ nav ul {
 nav ul li {
     padding: 15px;
     font-size: 20px;
+    margin: 0 30px;
 }
 
 nav ul li a:hover {
     color: var(--blue-color);
-
 }
 
 nav ul li a {
@@ -40,6 +40,9 @@ nav ul li a {
 
 .hero {
     position: relative;
+    margin-bottom: 0;
+    height: 572px;
+    border-bottom: 3px solid white;
 }
 
 .bio {
@@ -75,6 +78,7 @@ img {
     -webkit-filter: grayscale(100%);
     /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
+    z-index: -1;
 }
 
 
@@ -83,11 +87,13 @@ img {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    border-bottom: 3px solid white;
 }
 
 .section-title {
-    display: block;
+    display: flex;
     font-size: 50px;
+    justify-content: center;
     font-family: "Poller One", cursive;
 }
 
@@ -95,17 +101,74 @@ img {
     width: 400px;
     height: 200px;
     border: 5px solid var(--secondary-color);
+    background-image: url(./images/Screenshot\ \(2\).png);
+    background-size: cover;
+}
+
+.run-buddy h2 {
+    text-align: center;
+    position: relative;
+    width: 150px;
+    bottom: -171px;
+    right: -120px;
+    height: 27px;
+    color: var(--primary-color);
+    background-color: white;
+    margin-top: 3px;
+    font-family: "poller one", cursive;
+    font-size: 20px;
 }
 
 .future-work {
     width: 400px;
-    height: 200px;
+    heighatust: 200px;
     border: 5px solid var(--secondary-color);
     margin-bottom: 30px;
+}
+
+.future-work h2 {
+    justify-content: center;
+    position: relative;
+    width: 160px;
+    bottom: -171px;
+    right: -120px;
+    height: 27px;
+    color: var(--primary-color);
+    background-color: white;
+    margin-top: 3px;
+    font-family: "poller one", cursive;
+    font-size: 20px;
 }
 
 .future-work:hover,
 .run-buddy:hover {
     border: 5px solid var(--blue-color);
-    box-shadow: 10px 5px 5px red;
+    box-shadow: 0 4px 10px var(--gray-color);
+}
+
+.footer ul {
+    position: relative;
+    left: 250px;
+    display: flex;
+    list-style-type: none;
+}
+
+.footer ul li {
+    padding: 15px;
+    font-size: 20px;
+    margin: 0 30px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.footer ul li:hover,
+.footer a:hover {
+    color: var(--blue-color);
+}
+
+.footer {
+    font-family: "Poller One", cursive;
 }
