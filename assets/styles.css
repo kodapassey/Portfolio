@@ -48,18 +48,18 @@ nav ul li a {
 
 .hero {
     position: relative;
+    display: flex;
     margin-bottom: 0;
     height: 572px;
     border-bottom: 3px solid white;
 }
 
 .bio {
-    width: 600px;
+    height: 50%;
+    width: 50%;
     position: relative;
-    left: 200px;
-    top: 100px;
+    margin: auto;
     font-family: "Poller One", cursive;
-    margin-top: 70px;
 }
 
 .bio h1 {
@@ -74,12 +74,10 @@ nav ul li a {
 .pics {
     display: flex;
     justify-content: right;
-    width: 440px;
-    height: 660px;
+    width: 20%;
+    height: 100%;
     position: relative;
-    margin-bottom: 255;
-    left: 56%;
-    bottom: 250px;
+    margin: auto;
     z-index: 1;
 }
 
@@ -157,9 +155,10 @@ img {
 
 .footer ul {
     position: relative;
-    left: 250px;
     display: flex;
     list-style-type: none;
+    left: -4%;
+    justify-content: center;
 }
 
 .footer ul li {
@@ -186,20 +185,24 @@ img {
 @media screen and (max-width: 980px) {
     header nav ul {
         padding-bottom: 0;
-        justify-content: center;
         position: relative;
         width: 100%;
     }
 
     .pics {
-        height: 99%;
-        left: 42%;
+        display: flex;
+        margin: auto;
         z-index: 1;
+        width: 50%;
+        height: 100%;
     }
 
     .bio {
-        width: 46%;
-        left: 100px;
+        width: 50%;
+        height: 50%;
+        left: 10%;
+        font-size: 2vw;
+        margin: auto;
         position: relative;
         text-align: left;
     }
@@ -209,9 +212,17 @@ img {
         padding: 0px
     }
 
+    .run-buddy,
+    .future-work {
+        width: 45%;
+    }
+
     .footer ul {
         position: relative;
-        left: -4px;
+        display: flex;
+        list-style-type: none;
+        width: 100%;
+        left: -7%;
     }
 
     .hero {
@@ -227,14 +238,21 @@ img {
     }
 
     .bio {
+        width: 50%;
+        height: 50%;
+        left: 10%;
+        font-size: 2vw;
+        margin: auto;
         position: relative;
-        left: 55px;
-        width: 60%;
+        text-align: left;
     }
 
     .pics {
-        left: 46%;
         display: flex;
+        margin: auto;
+        z-index: 1;
+        width: 50%;
+        height: 100%;
     }
 
     .run-buddy {
@@ -255,8 +273,11 @@ img {
     }
 
     .footer ul {
+        position: relative;
+        left: 0;
         display: inline;
         text-align: center;
+        width: 100%;
     }
 }
 
@@ -286,13 +307,20 @@ img {
     }
 
     .pics {
-        left: 24%;
-        height: 65vw;
+        display: flex;
+        margin: auto;
+        z-index: 1;
+        width: 50%;
+        height: 100%;
     }
 
     .bio {
+        width: 50%;
+        height: 50%;
+        left: 10%;
         font-size: 2vw;
-        left: 30px;
-        top: 50px;
+        margin: auto;
+        position: relative;
+        text-align: left;
     }
 }
