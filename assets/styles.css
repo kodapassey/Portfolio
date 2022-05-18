@@ -99,7 +99,7 @@ img {
 
 .section-title {
     display: flex;
-    font-size: 50px;
+    font-size: 4vw;
     justify-content: center;
     font-family: "Poller One", cursive;
 }
@@ -113,11 +113,10 @@ img {
 }
 
 .run-buddy h2 {
-    text-align: center;
+    justify-content: center;
     position: relative;
-    width: 150px;
+    width: 100%;
     bottom: -171px;
-    right: -120px;
     height: 27px;
     color: var(--primary-color);
     background-color: white;
@@ -136,9 +135,8 @@ img {
 .future-work h2 {
     justify-content: center;
     position: relative;
-    width: 160px;
+    width: 100%;
     bottom: -171px;
-    right: -120px;
     height: 27px;
     color: var(--primary-color);
     background-color: white;
@@ -187,6 +185,7 @@ img {
         padding-bottom: 0;
         position: relative;
         width: 100%;
+        font-size: 3vw;
     }
 
     .pics {
@@ -235,6 +234,7 @@ img {
         position: relative;
         left: -40px;
         width: 100%;
+        font-size: 3vw;
     }
 
     .bio {
@@ -293,6 +293,7 @@ img {
 
     header nav ul li {
         width: 100%;
+        font-size: 3vw;
         padding: 0px;
         justify-content: center;
     }
@@ -323,4 +324,21 @@ img {
         position: relative;
         text-align: left;
     }
+}
+
+@media screen and (min-width: 375px) {
+    nav ul li {
+        font-size: 1.5vw;
+        margin: 0 10px 0 10px;
+    }
+
+    .bio h1 {
+        font-size: 5vw;
+        margin: 5% 0 5% 1px;
+    }
+
+    .section-title {
+        font-size: 4vw;
+    }
+
 }
