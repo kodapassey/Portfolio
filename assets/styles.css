@@ -112,7 +112,43 @@ img {
     background-size: cover;
 }
 
-.run-buddy h2 {
+.eat-your-luck {
+    width: 400px;
+    height: 200px;
+    border: 5px solid var(--secondary-color);
+    background-image: url(./images/Screenshot\ \(4\).png);
+    background-size: cover;
+}
+
+.weather-dashboard {
+    width: 400px;
+    height: 200px;
+    border: 5px solid var(--secondary-color);
+    background-image: url(./images/Screenshot\ \(8\).png);
+    background-size: cover;
+}
+
+.calendar-app {
+    width: 400px;
+    height: 200px;
+    border: 5px solid var(--secondary-color);
+    background-image: url(./images/Screenshot\ \(6\).png);
+    background-size: cover;
+}
+
+.git-it-done {
+    width: 400px;
+    height: 200px;
+    border: 5px solid var(--secondary-color);
+    background-image: url(./images/Screenshot\ \(7\).png);
+    background-size: cover;
+}
+
+.run-buddy h2,
+.calendar-app h2,
+.eat-your-luck h2,
+.weather-dashboard h2,
+.git-it-done h2 {
     justify-content: center;
     position: relative;
     width: 100%;
@@ -125,7 +161,11 @@ img {
     font-size: 20px;
 }
 
-.future-work {
+.future-work,
+.eat-your-luck,
+.calendar-app,
+.weather-dashboard,
+.git-it-done {
     width: 400px;
     height: 200px;
     border: 5px solid var(--secondary-color);
@@ -146,7 +186,11 @@ img {
 }
 
 .future-work:hover,
-.run-buddy:hover {
+.run-buddy:hover,
+.eat-your-luck:hover,
+.calendar-app:hover,
+.weather-dashboard:hover,
+.git-it-done:hover {
     border: 5px solid var(--blue-color);
     box-shadow: 0 4px 10px var(--gray-color);
 }
