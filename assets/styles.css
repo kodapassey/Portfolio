@@ -144,11 +144,20 @@ img {
     background-size: cover;
 }
 
+.fit-wit {
+    width: 400px;
+    height: 200px;
+    border: 5px solid var(--secondary-color);
+    background-image: url(./images/Screenshot\ \(12\).png);
+    background-size: cover;
+}
+
 .run-buddy h2,
 .calendar-app h2,
 .eat-your-luck h2,
 .weather-dashboard h2,
-.git-it-done h2 {
+.git-it-done h2,
+.fit-wit h2 {
     justify-content: center;
     position: relative;
     width: 100%;
@@ -161,7 +170,7 @@ img {
     font-size: 20px;
 }
 
-.future-work,
+.fit-wit,
 .eat-your-luck,
 .calendar-app,
 .weather-dashboard,
@@ -172,25 +181,12 @@ img {
     margin-bottom: 30px;
 }
 
-.future-work h2 {
-    justify-content: center;
-    position: relative;
-    width: 100%;
-    bottom: -171px;
-    height: 27px;
-    color: var(--primary-color);
-    background-color: white;
-    margin-top: 3px;
-    font-family: "poller one", cursive;
-    font-size: 20px;
-}
-
-.future-work:hover,
 .run-buddy:hover,
 .eat-your-luck:hover,
 .calendar-app:hover,
 .weather-dashboard:hover,
-.git-it-done:hover {
+.git-it-done:hover,
+.fit-wit:hover {
     border: 5px solid var(--blue-color);
     box-shadow: 0 4px 10px var(--gray-color);
 }
@@ -255,8 +251,7 @@ img {
         padding: 0px
     }
 
-    .run-buddy,
-    .future-work {
+    .run-buddy {
         width: 45%;
     }
 
@@ -304,10 +299,6 @@ img {
         margin-bottom: 30px;
     }
 
-    .future-work {
-        flex: 0 100%;
-    }
-
     .my-work h2 {
         left: 0;
     }
@@ -346,8 +337,7 @@ img {
         height: 57vw;
     }
 
-    .run-buddy,
-    .future-work {
+    .run-buddy {
         width: 40vw;
     }
 
